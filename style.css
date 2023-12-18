@@ -1,0 +1,98 @@
+/* General */
+body {
+    background-image: url('./assets/images/4afae2fd1de5e74aede82592625977e1.jpg');
+}
+
+p {
+    color: rgb(70, 154, 182);
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+/* About Us Button*/
+.dropbtn {
+    background-color: rgb(119, 2, 2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: blue;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: blue;}
+
+/* About the Developer Dropdown Button*/
+.devbutton {
+    background-color: rgb(119, 2, 2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dev {
+    position: relative;
+    display: inline-block;
+    }
+
+.dev-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dev-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dev-content a:hover {background-color: blue;}
+.dev:hover .dev-content {display: block;}
+.dev:hover .devbutton {background-color: blue;}
+
+/*.dropdown .dropdev {
+    justify-content: space-between;
+}*/
+
+.bake {
+    position: relative;
+    float: none;
+    display: block;
+    margin: 30px;
+}

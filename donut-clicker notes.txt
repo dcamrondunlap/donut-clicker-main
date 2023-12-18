@@ -1,0 +1,84 @@
+A place to organize my notes and group my thoughts together
+very similar to the cookie clicker game and will regularly refer back to the site in order to draw reference and inspiration (if there is enough time maybe try to figure out how to create characters to make donut clicking more efficient)
+
+First things first need to create a website that uses button clicks to create donuts and eventually build up the currency to purchase auto clickers 
+Basically just a website version of a idle game 
+
+clicks are a 1:1 with a +1 increment (1 click will move on to 2 clicks etc etc)
+
+Auto clicker will increases by 10% as you buy more auto clickers 
+
+
+html will have to have a section that handles the clicks as well as a section that deals with auto clicker
+
+the donut maker function will add a donut count for every click AND return a donut count to the display 
+check if enough donuts are there to purchase a autoclicker
+increase the count (and cost) of autoclickers with each purchase
+autoclicker will apply clicks every second based on the auto clicker count
+has the option to reset the game when desired 
+
+will treat the iterations as groups and try to work on each iteration in said group before moving to the next one unless it is needed in order to make a part of the code work  
+
+iteration 1 
+    Feature 1 have a way to count le donuts
+        a way to count donuts 
+            can add to and retrieve a donut count
+
+    Feature 2 auto clicker should cost 100 doughnuts 
+        can retrieve a autoclicker count as well as adding to the auto clicker count 
+        subtract the auto clicker cost from the donut clicker (if you have 500 cookies and a autoclicker cost 300 then you have 200 donuts left )      
+
+    Feature 3 cost of each autoclicker goes up with each purchase (10%)
+        also remember to make it so that each additional autoclicker purchases increases by 10%  
+
+    Feature 4 make sure there are enough clicks to buy a autoclicker
+        prevent autoclicker from going up if there aren't enough donuts to buy one 
+
+    Feature 5 the amount of autoclickers positively affect the amount of donuts added when an 'Activate auto clickers' even if called 
+        increases the total by the mount of auto clickers is owned 
+            if a autoclicker triples the amount then the donut total will also triple 
+
+iteration 2 
+    Feature 1 give the people a button to click 
+        in the main section of the page 
+        label the button so nobody has an excuse to misunderstand 
+
+    Feature 2 create a click count element 
+        the element will provide the user with the donut count 
+
+    Feature 3 section for the auto clicker 
+        section of elements that includes a purchase button and a count of auto clickers 
+
+    Feature 4 header with a link to a drop down element with info about the company
+        gotta give the marketing folks their piece of the pie 
+    
+    Feature 5 header with a link to the inspiration of the game 
+        create a link that opens to papa cookie maker
+
+    Feature 6 header with link to drop down element with info about developer
+        gotta give credit to myself of course
+
+iteration 3 
+    Feature 1 donut counter should change when clicker button is pressed 
+        each press should add however many donuts the player is making at the time 
+
+    Feature 2 auto clickers purchase button should be grayed out and unresponsive if there isn't enough donuts to purchase it 
+        if you have no money you do not even get the option to pretend to buy something 
+        no matter how many times it is pressed, nothing will happen 
+
+    Feature 3 auto clicker count should be displayed 
+        user should be able to see what all they have purchased 
+        count should update with each purchase that is made 
+
+    Feature 4 auto clicker in clicks should be displayed 
+        should know how many donuts is needed to make the next purchase 
+            no different than seeing how much money is needed for that cpu upgrade 
+        cost should update whenever the price is changed 
+
+iteration 4
+    Feature 1 have a way to reset the game 
+        for those who want to start over and try a different approach (no idea why but to each their own) in order to be more efficient
+            should stay on the same page to (but still reset) in order to keep the transition smooth and seamless 
+
+
+Things that i might want to try out if I have time to spare and it does not decimate my code 

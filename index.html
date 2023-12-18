@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donut Clicker</title>
+</head>
+<body>
+
+<header>
+    <h1>Fred the Baker!</h1> 
+    <h2><a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">For Legal Reasons here is the Inspiration</a></h2>
+
+<h3>
+    <div class="dropdown">
+    <button class="dropbtn">About Us</button>
+        <div class="dropdown-content">
+            <a href="#">Est.2023</a>
+            <a href="#">Fred previously baked wonderful donuts for 42 years</a>
+            <a href="#">With decades of experience under his belt Fred has become a mastery pastry baker and has expanded to many other treats, such as Macaroons and even cookies! </a>
+        </div>
+    </div>
+</h3>
+
+
+<!--<div class="dropdev">
+    <button onclick="devBtn()" class="devbtn">Developer Info</button>
+    <div class="dev-content">
+        <a href="https://github.com/Numbah6" target="_blank">My Portfolio</a>
+        <a href="#">Link 2</a>
+    </div>
+</div> -->
+
+<div class="dev">
+    <button class="devbutton">Developer</button>
+    <div class="dev-content">
+        <a href="https://github.com/Numbah6" target="_blank">GitHub</a>
+        <a href="https://github.com/Numbah6/New-Portfolio-project.git" target="_target">My Portfolio</a>
+    </div>
+</div>
+
+</header>
+
+
+<main>
+    
+        <button id="clicker" onclick="addDonut()" class="bake">Bring on the Bake!</button>
+
+        <div>
+            <p>Donuts Baked: <span id="donutCount"></span></p>
+        </div>
+
+        <div>
+            <p>Donut Clicks: <span id="clickCount"></span></p>
+        </div>
+
+        <div>
+            <button id="buyAutoOven" onclick="buyAutoOven()">Buy Auto Oven</button>
+        </div>
+
+        <div>
+            <p> Auto Oven Count: <span id="autoClickerCount"></span></p>
+        </div>
+
+        <div>
+            <p>Auto Count Cost: <span id="autoClickerCost"></span></p>
+        </div>
+    </main>
+
+    <footer>
+        <button id="reset" onclick="resetGame()" value="Reset Game">Reset</button>
+    </footer>
+
+
+    <script src="app.js"></script>  
+</body>
+
+</html>
