@@ -6,7 +6,6 @@ let autoClickerCost = 100;
 let taxIncrease = 0.1;
 let clickPriceNow = autoClickerCost;
 let displayDonut = document.getElementById('donutCount');
-let countOfClick = document.getElementById('clickCount');
 let displayAutoClickerCount = document.getElementById('autoClickerCount');
 let button= document.getElementById('buyAutoOven');
 let reset = document.getElementById('reset');
@@ -14,7 +13,6 @@ let reset = document.getElementById('reset');
 
 
 function addDonut(){
-    countOfClick.innerText = Math.floor(donutCount);
     displayDonut.innerText = Math.floor(donutCount++);
     if(donutCount <= autoClickerCost){
         button.disabled= true;
@@ -34,8 +32,8 @@ if(donutCount >= autoClickerCost){
         clickPriceNow = Math.floor(autoClickerCost);
         document.getElementById('autoClickerCost').innerText = clickPriceNow;
         setInterval(addDonut, 1000);
-        displayDonut.innerText = donutCount; 
-        displayAutoClickerCount.innerText = autoClickerCount++; 
+        displayDonut.innerText = donutCount;
+        displayAutoClickerCount.innerText = autoClickerCount++;
         button.disabled=false;
     } else {
         button.disabled = true;
