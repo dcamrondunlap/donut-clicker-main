@@ -137,8 +137,6 @@ main {
     color: #F4F5E8;
 }
 
-.about-btn,
-.instruction,
-.reset {
+.bake {
     touch-action: manipulation;
 }
